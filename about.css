@@ -1,0 +1,21 @@
+.about {
+    width: 60%;   
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+.about__text {
+    font-size: 1em; 
+    letter-spacing: 1px; 
+    margin: 10px 0; 
+    color: #717171
+}
+.about__pink-dots {color: #fb8686;}
+@media screen and (max-width: 1200px){
+    .about__sub-title {font-size: 1.5em;}
+}
+@media screen and (max-width: 768px){
+    .about {width: 100%;}
+    .titles__main-title {margin: 10px 0;}
+    .titles__sub-title {font-size: 1.2em;}
+}

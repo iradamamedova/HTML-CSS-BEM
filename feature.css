@@ -1,0 +1,31 @@
+.feature__text {
+    font-size: 1em; 
+    letter-spacing: 1px; 
+    margin: 10px 0; 
+    color: #717171
+}
+.feature__icon-1 {
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    background: url("./img/icons/features-ico1.png") center/cover;
+}
+.feature__icon-2 {
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    background: url("./img/icons/features-ico2.png") center/cover;
+}
+.feature__icon-3 {
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    background: url("./img/icons/features-ico3.png") center/cover;
+}
+.feature__title {
+    font-size: 1.3em;
+    margin: 25px 0 15px 0;
+}
+@media screen and (max-width: 1200px){
+    .feature__title {font-size: 1.1em;}
+}

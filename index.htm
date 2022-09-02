@@ -5,34 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./intro.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./features.css" />
+    <link rel="stylesheet" href="./feature.css" />
     <title>Corporate landing page</title>
 </head>
 <body>
-    <header></header>
-    <section id="section-1">
-        <article>
-            <h3 class="h3">new design</h3>
-            <h2>There is no other platforms for you as like <span class="pink-txt">....</span></h2>
-            <p>
+    <section class="intro">
+        <article class="intro__about about">
+            <div class="about__titles titles">
+                <h3 class="titles__main-title">new design</h3>
+                <h2 class="titles__sub-title">There is no other platforms for you as like <span class="about__pink-dots">....</span></h2>
+            </div>
+            <p class="about__text">
                 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. 
                 Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. 
                 Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.
             </p>
-            <p>
+            <p class="about__text">
                 Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. 
                 Donec ullamcorper nulla non metus auctor fringilla. 
                 Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
             </p>
         </article>
-        <div>
-            <img src="./img/bg/bgintro.jpg" />
+        <div class="intro__image"></div>
+    </section>
+    <section class="features">
+        <div class="features__content">
+            <div class="features__titles titles">
+                <h3 class="titles__main-title">new features</h3>
+                <h2 class="titles__sub-title">Some Awesome Features</h2>
+            </div>
+            <div class="features__features-list">
+                <article class="features__feature feature">
+                    <div class="feature__icon-1"></div>
+                    <h4 class="feature__title">Some Awesome Features</h4>
+                    <p class="feature__text">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+                </article>
+                <article class="features__feature feature">
+                    <div class="feature__icon-2"></div>
+                    <h4 class="feature__title">Some Awesome Features</h4>
+                    <p class="feature__text">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+                </article>
+                <article class="features__feature feature">
+                    <div class="feature__icon-3"></div>
+                    <h4 class="feature__title">Some Awesome Features</h4>
+                    <p class="feature__text">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+                </article>
+            </div>
         </div>
     </section>
-    <section id="section-2"></section>
-    <section id="section-3"></section>
-    <section id="section-4"></section>
-    <section id="section-5"></section>
-    <section id="section-6"></section>
-    <footer id="section-2"></footer>
+    <section class="design">
+
+    </section>
 </body>
 </html>
