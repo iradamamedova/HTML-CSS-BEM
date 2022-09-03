@@ -4,15 +4,3 @@ body, h1, h2, h3, h4, h5, h6{
     padding: 0; 
     font-family: "Exo";
 }
-.titles__main-title {
-    color: #fb8686; 
-    font-size: 1em;
-    letter-spacing: 3px; 
-    text-transform: uppercase;
-}
-.titles__sub-title {
-    font-size: 2.5em; 
-    letter-spacing: 2px; 
-    margin: 0; 
-    color: #282828
-}

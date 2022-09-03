@@ -11,9 +11,6 @@
     justify-content: space-around;
     padding: 80px 0;
 }
-@media screen and (max-width: 1200px){
-    .titles__sub-title {font-size: 1.5em;}
-}
 @media screen and (max-width: 992px){
     .features__features-list {
         display: inline-block;
