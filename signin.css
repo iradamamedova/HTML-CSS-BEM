@@ -1,0 +1,33 @@
+.signin {
+    width: 100%;
+    height: 60vh;
+    background: #323969;
+    text-align: center;
+    overflow: hidden;
+}
+.signin__content {padding: 80px;}
+.signin__input {
+    width: 200px; height: 20px; 
+    outline: none; 
+    padding: 10px 20px; 
+    border: none; 
+    color: #fff; 
+    background: #474d78;
+    margin: 80px 15px 40px 15px;
+    border-radius: 2px;
+}
+.signin__button {
+    width: 220px; height: 40px; 
+    outline: none;
+    border: none; 
+    color: #fff; 
+    background: #fb8686;
+    margin: 15px;
+    border-radius: 2px;
+}
+@media screen and (max-width: 1200px) {
+    .signin__input {margin: 15px;}
+}
+@media screen and (max-width: 768px) {
+    .signin {height: auto;}
+}

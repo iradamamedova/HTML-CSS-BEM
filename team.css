@@ -1,0 +1,15 @@
+.team {
+    width: 100%;
+    height: 95vh;
+    background: url("./img/bg/bgclients.jpg") center/cover;
+    overflow: hidden;
+}
+.team__founder {max-width: 320px;}
+.team__partner {margin: 15px 25px;}
+.team__list {padding: 0;}
+@media screen and (max-width: 992px) {
+    .team {height: auto;}
+}
+@media screen and (max-width: 768px) {
+    .team__founder {max-width: 90%;}
+}

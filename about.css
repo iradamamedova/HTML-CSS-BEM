@@ -15,13 +15,16 @@
     margin: 0; 
     color: #282828
 }
+.about__sub-title_white {color: #fff; letter-spacing: 2px; font-weight: 500;}
+.about__text_white {color: #f6f5f3; font-weight: 400; letter-spacing: 1px;}
 .about__text {
     font-size: 1em; 
     letter-spacing: 1px; 
-    margin: 10px 0; 
+    margin: 20px 0; 
     color: #717171
 }
 .about__pink-dots {color: #fb8686;}
+.about__main-title_letter-space {letter-spacing: 3px; font-weight: 500;}
 @media screen and (max-width: 1200px){
     .about__sub-title {font-size: 1.5em;}
 }
@@ -30,5 +33,5 @@
     .about__main-title {margin: 10px 0;}
     .about__sub-title {font-size: 1.2em;}
     .about__main-title_white {color: #fff;}
-    .about__text_white {color: #383838;}
+    .about__text_gray {color: #383838;}
 }

@@ -1,0 +1,40 @@
+.new-features {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.new-features__image {
+    width: 772px;
+    height: 353px;
+    background-image: url("./img/browser.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0; right: 50%;
+    transform: translate(50%, 0);
+    box-shadow: 0 5px 20px #999;
+}
+.new-features__description {padding: 5% 22% 0 22%;}
+@media screen and (max-width: 992px) {
+    .new-features__description{padding: 5% 10% 0 10%;}
+    .new-features__image {
+        width: 702px;
+        height: 283px;
+        background-size: 702px 283px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .new-features__content {padding: 20px;}
+    .new-features {height: 70vh;}
+    .new-features__description{padding: 0;}
+    .new-features__image {
+        width: 100%;
+        height: 30vh;
+        background-size: 100% 30vh;
+        right: 0;
+        transform: translate(0, 0);
+    }
+}
