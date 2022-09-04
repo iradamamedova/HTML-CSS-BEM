@@ -2,7 +2,8 @@
     font-size: 1em; 
     letter-spacing: 1px; 
     margin: 10px 0; 
-    color: #717171
+    color: #717171;
+    text-decoration: none;
 }
 .feature__text_cursive {
     font-style: italic; 

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./header.css" />
         <link rel="stylesheet" href="./intro.css" />
         <link rel="stylesheet" href="./about.css" />
         <link rel="stylesheet" href="./features.css" />
@@ -13,9 +14,17 @@
         <link rel="stylesheet" href="./team.css" />
         <link rel="stylesheet" href="./new-features.css" />
         <link rel="stylesheet" href="./signin.css" />
+        <link rel="stylesheet" href="./footer.css" />
         <title>Corporate landing page</title>
     </head>
     <body>
+        <section class="header">
+            <div class="header__content">
+                <h1 class="header__title">There is no other platforms for you as like</h1>
+                <button class="header__btn">try now</button>
+                <p class="header__text">* No need to add cards details</p>
+            </div>
+        </section>
         <section class="intro">
             <article class="intro__about">
                 <div class="about__titles about">
@@ -163,6 +172,35 @@
                     <button class="signin__button">TRY NOW</button>
                 </div>
                 <p class="about__text_white">By Signing up you agree to our terms & Services.</p>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer__content">
+                <article class="footer__adress about">
+                    <img class="footer__logo" src="./img/logo.png" alt="Landing page's logo" />
+                    <p class="about__text">
+                        Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. 
+                        USA &  CAN: 1-888-123-4567
+                        Address: 34 Brokel Rd. NY
+                    </p>
+                </article>
+                <div class="footer__support feature">
+                    <h5 class="feature__title">Support</h5>
+                    <a class="footer__link feature__text" href="">Help Center</a>
+                    <a class="footer__link feature__text" href="">Get Started</a>
+                    <a class="footer__link feature__text" href="">Contact Us</a>
+                </div>
+                <div class="footer__about-us feature">
+                    <h5 class="feature__title">About Us</h5>
+                    <a class="footer__link feature__text" href="">About Us</a>
+                    <a class="footer__link feature__text" href="">Terms of Use</a>
+                    <a class="footer__link feature__text" href="">Privacy Policy</a>
+                </div>
+                <div class="footer__newsletter feature">
+                    <h5 class="feature__title">Get Newsletter</h5>
+                    <input class="footer__email" type="email" placeholder="EMAIL" />
+                    <input class="footer__email-btn" type="submit" style="background-image: url('./img/btn-mail.png'); background-repeat: no-repeat; background-position: 8px 8px;" value="" />
+                </div>
             </div>
         </section>
     </body>
