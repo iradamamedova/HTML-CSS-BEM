@@ -9,7 +9,7 @@
 .new-features__image {
     width: 772px;
     height: 353px;
-    background-image: url("./img/browser.png");
+    background-image: url("../img/browser.png");
     background-size: auto;
     background-repeat: no-repeat;
     position: absolute;

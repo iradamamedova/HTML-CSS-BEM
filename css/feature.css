@@ -16,19 +16,19 @@
     margin: auto;
     width: 65px;
     height: 65px;
-    background: url("./img/icons/features-ico1.png") center/cover;
+    background: url("../img/icons/features-ico1.png") center/cover;
 }
 .feature__icon-2 {
     margin: auto;
     width: 65px;
     height: 65px;
-    background: url("./img/icons/features-ico2.png") center/cover;
+    background: url("../img/icons/features-ico2.png") center/cover;
 }
 .feature__icon-3 {
     margin: auto;
     width: 65px;
     height: 65px;
-    background: url("./img/icons/features-ico3.png") center/cover;
+    background: url("../img/icons/features-ico3.png") center/cover;
 }
 .feature__title {
     font-size: 1.3em;
@@ -48,19 +48,19 @@
     width: 70px;
     height: 70px;
     margin: auto;
-    background: url("./img/team1.jpg") center/cover;
+    background: url("../img/team1.jpg") center/cover;
 }
 .feature__icon-2_founder {
     width: 70px;
     height: 70px;
     margin: auto;
-    background: url("./img/team2.jpg") center/cover;
+    background: url("../img/team2.jpg") center/cover;
 }
 .feature__icon-3_founder {
     width: 70px;
     height: 70px;
     margin: auto;
-    background: url("./img/team3.jpg") center/cover;
+    background: url("../img/team3.jpg") center/cover;
 }
 @media screen and (max-width: 1200px){
     .feature__title {font-size: 1.1em;}

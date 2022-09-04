@@ -6,7 +6,7 @@
 .intro__image {
     width: 40%; 
     height: auto; 
-    background-image: url("img/bg/bgintro.jpg");
+    background-image: url("../img/bg/bgintro.jpg");
     background-position: left bottom;
 }
 .intro__about {
