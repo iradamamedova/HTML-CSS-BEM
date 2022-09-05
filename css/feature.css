@@ -1,0 +1,65 @@
+.feature__text {
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  color: #717171;
+  text-decoration: none;
+}
+.feature__text_cursive {
+  font-style: italic;
+  letter-spacing: 0.7px;
+  color: #fff;
+  font-size: 0.9em;
+  margin: 30px 0 90px 0;
+}
+.feature__icon-1,
+.feature__icon-2,
+.feature__icon-3 {
+  margin: auto;
+  width: 65px;
+  height: 65px;
+}
+.feature__icon-1 {
+  background: url("../img/icons/features-ico1.png") center/cover;
+}
+.feature__icon-2 {
+  background: url("../img/icons/features-ico2.png") center/cover;
+}
+.feature__icon-3 {
+  background: url("../img/icons/features-ico3.png") center/cover;
+}
+.feature__title {
+  font-size: 1.3em;
+  margin: 25px 0 15px 0;
+  letter-spacing: 1px;
+}
+.feature__title_white {
+  color: #fff;
+  font-weight: 500;
+  margin: 20px 0 0 0;
+}
+.feature__post {
+  color: #fb8686;
+  font-weight: 500;
+}
+.feature__icon-1_founder,
+.feature__icon-2_founder,
+.feature__icon-3_founder {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.feature__icon-1_founder {
+  background: url("../img/team1.jpg") center/cover;
+}
+.feature__icon-2_founder {
+  background: url("../img/team2.jpg") center/cover;
+}
+.feature__icon-3_founder {
+  background: url("../img/team3.jpg") center/cover;
+}
+@media screen and (max-width: 1200px) {
+  .feature__title {
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap");
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo";
+}
+input:hover,
+button:hover {
+  box-shadow: 0 2px 10px #c56969;
+  transition: 0.2s;
+}
+a:hover {
+  color: #fb8686;
+  text-shadow: 2px 2px 2px #fff;
+  transition: 0.2s;
+}
